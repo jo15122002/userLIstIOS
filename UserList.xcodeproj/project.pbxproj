@@ -14,6 +14,8 @@
 		ED6CA2672938D3E80057EEFB /* UserListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2662938D3E80057EEFB /* UserListTests.swift */; };
 		ED6CA2712938D3E80057EEFB /* UserListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2702938D3E80057EEFB /* UserListUITests.swift */; };
 		ED6CA2732938D3E80057EEFB /* UserListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2722938D3E80057EEFB /* UserListUITestsLaunchTests.swift */; };
+		ED6CA2802938D44C0057EEFB /* JsonDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */; };
+		ED6CA2822938D4D10057EEFB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2812938D4D10057EEFB /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		ED6CA26C2938D3E80057EEFB /* UserListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6CA2702938D3E80057EEFB /* UserListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITests.swift; sourceTree = "<group>"; };
 		ED6CA2722938D3E80057EEFB /* UserListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDownloader.swift; sourceTree = "<group>"; };
+		ED6CA2812938D4D10057EEFB /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				ED6CA2572938D3E70057EEFB /* ContentView.swift */,
 				ED6CA2592938D3E80057EEFB /* Assets.xcassets */,
 				ED6CA25B2938D3E80057EEFB /* Preview Content */,
+				ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */,
+				ED6CA2812938D4D10057EEFB /* Users.swift */,
 			);
 			path = UserList;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6CA2822938D4D10057EEFB /* Users.swift in Sources */,
 				ED6CA2582938D3E70057EEFB /* ContentView.swift in Sources */,
 				ED6CA2562938D3E70057EEFB /* UserListApp.swift in Sources */,
+				ED6CA2802938D44C0057EEFB /* JsonDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
