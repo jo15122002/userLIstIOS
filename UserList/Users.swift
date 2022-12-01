@@ -15,28 +15,36 @@ import Foundation
 import Foundation
 
 // MARK: - User
-struct User: Codable, Identifiable {
+struct User: Codable, Identifiable, Equatable {
     let id: Int
-    let name, username, email: String
-    let address: Address
-    let phone, website: String
-    let company: Company
+    var name, username, email: String
+    var address: Address
+    var phone, website: String
+    var company: Company
+    
+    static func defaultuser()-> User {
+        return User(id: 4, name: "Jean", username: "JB", email: "JBdu74@myspace.com", address: Address(street: "Rue jean massé", suite: "", city: "Paris", zipcode: "01548", geo: Geo(lat: "1.2545", lng: "0.25484")), phone: "0458745968", website: "JbLaRacaille.fr", company: Company(name: "JeanAndCo", catchPhrase: "Wesh on fait du style ici nous", bs: "bs"))
+    }
+    
+    static func == (lhs: User, rhs: User) -> Bool{
+        return lhs.id == rhs.id
+    }
 }
 
 // MARK: - Address
 struct Address: Codable {
-    let street, suite, city, zipcode: String
-    let geo: Geo
+    var street, suite, city, zipcode: String
+    var geo: Geo
 }
 
 // MARK: - Geo
 struct Geo: Codable {
-    let lat, lng: String
+    var lat, lng: String
 }
 
 // MARK: - Company
 struct Company: Codable {
-    let name, catchPhrase, bs: String
+    var name, catchPhrase, bs: String
 }
 
 typealias Users = [User]

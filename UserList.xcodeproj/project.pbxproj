@@ -16,6 +16,8 @@
 		ED6CA2732938D3E80057EEFB /* UserListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2722938D3E80057EEFB /* UserListUITestsLaunchTests.swift */; };
 		ED6CA2802938D44C0057EEFB /* JsonDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */; };
 		ED6CA2822938D4D10057EEFB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2812938D4D10057EEFB /* Users.swift */; };
+		ED6CA2842938D87F0057EEFB /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2832938D87F0057EEFB /* UserCellView.swift */; };
+		ED6CA2862938E48D0057EEFB /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2852938E48D0057EEFB /* UserDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		ED6CA2722938D3E80057EEFB /* UserListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDownloader.swift; sourceTree = "<group>"; };
 		ED6CA2812938D4D10057EEFB /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		ED6CA2832938D87F0057EEFB /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		ED6CA2852938E48D0057EEFB /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				ED6CA2552938D3E70057EEFB /* UserListApp.swift */,
 				ED6CA2572938D3E70057EEFB /* ContentView.swift */,
+				ED6CA2832938D87F0057EEFB /* UserCellView.swift */,
+				ED6CA2852938E48D0057EEFB /* UserDetailsView.swift */,
 				ED6CA2592938D3E80057EEFB /* Assets.xcassets */,
 				ED6CA25B2938D3E80057EEFB /* Preview Content */,
 				ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */,
@@ -266,6 +272,8 @@
 				ED6CA2822938D4D10057EEFB /* Users.swift in Sources */,
 				ED6CA2582938D3E70057EEFB /* ContentView.swift in Sources */,
 				ED6CA2562938D3E70057EEFB /* UserListApp.swift in Sources */,
+				ED6CA2842938D87F0057EEFB /* UserCellView.swift in Sources */,
+				ED6CA2862938E48D0057EEFB /* UserDetailsView.swift in Sources */,
 				ED6CA2802938D44C0057EEFB /* JsonDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
