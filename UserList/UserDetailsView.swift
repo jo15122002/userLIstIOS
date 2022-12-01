@@ -28,7 +28,7 @@ struct UserDetailsView: View {
             }
         }.onAppear{
             if(albumDownloader.albums.count <= 1){
-                albumDownloader.download(urlString: "https://jsonplaceholder.typicode.com/albums?userID=\(user.id)")
+                albumDownloader.download(urlString: "https://jsonplaceholder.typicode.com/albums?userId=\(user.id)")
             }
         }
     }
