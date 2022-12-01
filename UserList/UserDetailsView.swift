@@ -13,20 +13,19 @@ struct UserDetailsView: View {
     @ObservedObject var albumDownloader = AlbumDownloader()
     
     var body: some View {
-        NavigationView {
             VStack{
                 HStack{
                     TextField("Title key", text: $user.name)
                 }
                 List($albumDownloader.albums){album in
                     NavigationLink() {
-                        AlbumDetailsView(album: album, userId: user.id)
+                        AlbumImagesView(albumId: album.id)
                     }label: {
                         AlbumCellView(album: album)
                     }
                 }
             }
-        }.onAppear{
+        .onAppear{
             if(albumDownloader.albums.count <= 1){
                 albumDownloader.download(urlString: "https://jsonplaceholder.typicode.com/albums?userId=\(user.id)")
             }
@@ -41,6 +40,6 @@ struct UserDetailsView_Previews: PreviewProvider {
     
     
     static var previews: some View {
-        AlbumDetailsView(album: $album, userId: user.id)
+        UserDetailsView(user: $user)
     }
 }

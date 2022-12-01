@@ -20,8 +20,10 @@
 		ED6CA2862938E48D0057EEFB /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2852938E48D0057EEFB /* UserDetailsView.swift */; };
 		ED6CA2882938EB610057EEFB /* AlbumDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2872938EB610057EEFB /* AlbumDownloader.swift */; };
 		ED6CA28A2938EBB70057EEFB /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2892938EBB70057EEFB /* Albums.swift */; };
-		ED6CA28C2938EC920057EEFB /* AlbumDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA28B2938EC920057EEFB /* AlbumDetailsView.swift */; };
+		ED6CA28C2938EC920057EEFB /* AlbumImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA28B2938EC920057EEFB /* AlbumImagesView.swift */; };
 		ED6CA28E2938F50B0057EEFB /* AlbumCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA28D2938F50B0057EEFB /* AlbumCellView.swift */; };
+		ED6CA2902938F8330057EEFB /* AlbumImagesDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA28F2938F8330057EEFB /* AlbumImagesDownloader.swift */; };
+		ED6CA2922938F97D0057EEFB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CA2912938F97D0057EEFB /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +60,10 @@
 		ED6CA2852938E48D0057EEFB /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		ED6CA2872938EB610057EEFB /* AlbumDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDownloader.swift; sourceTree = "<group>"; };
 		ED6CA2892938EBB70057EEFB /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
-		ED6CA28B2938EC920057EEFB /* AlbumDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsView.swift; sourceTree = "<group>"; };
+		ED6CA28B2938EC920057EEFB /* AlbumImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImagesView.swift; sourceTree = "<group>"; };
 		ED6CA28D2938F50B0057EEFB /* AlbumCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCellView.swift; sourceTree = "<group>"; };
+		ED6CA28F2938F8330057EEFB /* AlbumImagesDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImagesDownloader.swift; sourceTree = "<group>"; };
+		ED6CA2912938F97D0057EEFB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +121,13 @@
 				ED6CA2872938EB610057EEFB /* AlbumDownloader.swift */,
 				ED6CA2892938EBB70057EEFB /* Albums.swift */,
 				ED6CA2852938E48D0057EEFB /* UserDetailsView.swift */,
-				ED6CA28B2938EC920057EEFB /* AlbumDetailsView.swift */,
+				ED6CA28B2938EC920057EEFB /* AlbumImagesView.swift */,
 				ED6CA2592938D3E80057EEFB /* Assets.xcassets */,
 				ED6CA25B2938D3E80057EEFB /* Preview Content */,
 				ED6CA27F2938D44C0057EEFB /* JsonDownloader.swift */,
 				ED6CA2812938D4D10057EEFB /* Users.swift */,
+				ED6CA28F2938F8330057EEFB /* AlbumImagesDownloader.swift */,
+				ED6CA2912938F97D0057EEFB /* Images.swift */,
 			);
 			path = UserList;
 			sourceTree = "<group>";
@@ -281,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6CA28C2938EC920057EEFB /* AlbumDetailsView.swift in Sources */,
+				ED6CA28C2938EC920057EEFB /* AlbumImagesView.swift in Sources */,
+				ED6CA2922938F97D0057EEFB /* Images.swift in Sources */,
 				ED6CA2822938D4D10057EEFB /* Users.swift in Sources */,
+				ED6CA2902938F8330057EEFB /* AlbumImagesDownloader.swift in Sources */,
 				ED6CA2582938D3E70057EEFB /* ContentView.swift in Sources */,
 				ED6CA2562938D3E70057EEFB /* UserListApp.swift in Sources */,
 				ED6CA28A2938EBB70057EEFB /* Albums.swift in Sources */,
